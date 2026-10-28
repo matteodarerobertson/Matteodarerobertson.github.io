@@ -1,0 +1,140 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Meridian Privacy Policy</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap">
+<style>
+/* Layout: the same single column as the Meridian terms: header band with dates, numbered sections, a table of what's kept, a contact footer */
+:root {
+  --bg: #f6f8f9;
+  --paper: #ffffff;
+  --ink: #17212b;
+  --muted: #56646f;
+  --rule: #d9e1e5;
+  --accent: #0f7c86;
+  --display: "Manrope", "Segoe UI", system-ui, sans-serif;
+  --body: "Newsreader", Georgia, "Times New Roman", serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1418; --paper: #141c21; --ink: #e4ebee; --muted: #9aa9b2; --rule: #26333a; --accent: #4cc3cc; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e1418; --paper: #141c21; --ink: #e4ebee; --muted: #9aa9b2; --rule: #26333a; --accent: #4cc3cc; color-scheme: dark;
+}
+body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 18px; line-height: 1.65; }
+.wrap { max-width: 44rem; margin: 0 auto; padding-block: 3rem 4rem; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header { display: grid; gap: .5rem; padding-bottom: 1.75rem; border-bottom: 2px solid var(--accent); margin-bottom: 2rem; }
+.eyebrow { font-family: var(--display); font-weight: 700; font-size: .75rem; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); margin: 0; }
+h1 { font-family: var(--display); font-weight: 800; font-size: clamp(2rem, 6vw, 2.75rem); line-height: 1.1; margin: 0; text-wrap: balance; }
+.dates { font-family: var(--display); font-size: .9rem; color: var(--muted); margin: 0; }
+.lead { font-size: 1.15rem; margin: 0 0 2rem; }
+ol.clauses { list-style: none; counter-reset: clause; padding: 0; margin: 0; display: grid; gap: 2rem; }
+ol.clauses > li { counter-increment: clause; display: grid; gap: .5rem; min-width: 0; }
+h2 { font-family: var(--display); font-weight: 700; font-size: 1.15rem; margin: 0; display: flex; gap: .75rem; align-items: baseline; text-wrap: balance; }
+h2::before { content: counter(clause); font-variant-numeric: tabular-nums; color: var(--accent); min-width: 1.5rem; }
+li p, li ul { margin: 0; }
+li ul { padding-left: 1.25rem; display: grid; gap: .35rem; }
+.clause-body { display: grid; gap: .65rem; padding-left: 2.25rem; min-width: 0; }
+.table-scroll { overflow-x: auto; border: 1px solid var(--rule); border-radius: 8px; background: var(--paper); }
+table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+th, td { text-align: left; vertical-align: top; padding: .6rem .8rem; border-bottom: 1px solid var(--rule); }
+tr:last-child td { border-bottom: 0; }
+th { font-family: var(--display); font-weight: 700; font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); font-family: var(--display); font-size: .9rem; color: var(--muted); display: grid; gap: .4rem; }
+a { color: var(--accent); }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+@media (max-width: 480px) { .clause-body { padding-left: 0; } body { font-size: 17px; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <p class="eyebrow">Meridian</p>
+    <h1>Privacy Policy</h1>
+    <p class="dates">Effective 28 October 2026 · Last updated 28 October 2026</p>
+  </header>
+
+  <p class="lead">Meridian is a personal tool that its owner runs on their own computer to make short clips and post them to their own YouTube, TikTok and Instagram accounts. This policy explains what information Meridian gets when an account is connected, where it's kept, and how to remove it.</p>
+
+  <ol class="clauses">
+    <li>
+      <h2>Who this covers</h2>
+      <div class="clause-body">
+        <p>Meridian has one user: its owner. It only ever connects to the owner's own accounts. It has no public sign-up and doesn't collect information about anyone else.</p>
+      </div>
+    </li>
+    <li>
+      <h2>What Meridian receives</h2>
+      <div class="clause-body">
+        <p>When an account is connected through a platform's official sign-in, Meridian receives only what that platform shares for the permissions you approve:</p>
+        <div class="table-scroll">
+          <table>
+            <thead><tr><th scope="col">Information</th><th scope="col">Why Meridian needs it</th></tr></thead>
+            <tbody>
+              <tr><td>Access and refresh tokens</td><td>To upload a video you choose to post, without signing in each time</td></tr>
+              <tr><td>Account ID (for TikTok, the open ID)</td><td>To know which account a token belongs to</td></tr>
+              <tr><td>Display name or username</td><td>To show which account is connected</td></tr>
+              <tr><td>Upload results (post ID, link, status)</td><td>To show whether a post worked and link to it</td></tr>
+              <tr><td>Public view, like and comment counts of posted clips (YouTube)</td><td>To see how posted clips perform</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Meridian doesn't ask for or receive your password, your messages, your followers, your contacts, or your location.</p>
+      </div>
+    </li>
+    <li>
+      <h2>How it's used</h2>
+      <div class="clause-body">
+        <ul>
+          <li>Videos are uploaded only when you press a button to post a specific video.</li>
+          <li>Information is used only to run Meridian's own features: showing the connected account, posting, and tracking how your posts do.</li>
+          <li>Nothing is used for advertising, profiling, or training any model.</li>
+        </ul>
+      </div>
+    </li>
+    <li>
+      <h2>Where it's stored</h2>
+      <div class="clause-body">
+        <p>Everything stays on the owner's computer, in Meridian's local data folder. Meridian has no server of its own and no cloud database. Sign-in tokens are kept by the local helper program and are never shown in Meridian's web page.</p>
+      </div>
+    </li>
+    <li>
+      <h2>Sharing</h2>
+      <div class="clause-body">
+        <p>Meridian doesn't sell, rent or share your information with anyone. It sends information only to the platform it came from (for example, a TikTok token goes only to TikTok) in order to post the videos you choose.</p>
+      </div>
+    </li>
+    <li>
+      <h2>How long it's kept</h2>
+      <div class="clause-body">
+        <p>A token is kept until you disconnect the account, or until it expires and can't be refreshed. Post records are kept until you delete the clip in Meridian.</p>
+      </div>
+    </li>
+    <li>
+      <h2>Removing your information</h2>
+      <div class="clause-body">
+        <p>Press Unlink next to the account in Meridian, which deletes its stored token right away. You can also remove Meridian's access in the platform's own settings. On TikTok, that's Settings and privacy, then Security, then Manage app permissions.</p>
+      </div>
+    </li>
+    <li>
+      <h2>Children</h2>
+      <div class="clause-body">
+        <p>Meridian isn't meant for children and doesn't knowingly collect information from anyone under 13.</p>
+      </div>
+    </li>
+    <li>
+      <h2>Changes to this policy</h2>
+      <div class="clause-body">
+        <p>This policy may be updated if Meridian changes. The date at the top of this page shows when it last changed.</p>
+      </div>
+    </li>
+  </ol>
+
+  <footer>
+    <p>Questions about this policy: contact the owner of the Meridian clips channel through its YouTube or TikTok profile.</p>
+  </footer>
+</div>
+
+</body></html>

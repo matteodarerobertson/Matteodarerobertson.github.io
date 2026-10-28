@@ -1,0 +1,130 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Meridian Terms of Service</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap">
+<style>
+/* Layout: a single readable column, like a signed agreement: a header band with the effective date, numbered clauses, a short contact footer */
+:root {
+  --bg: #f6f8f9;
+  --paper: #ffffff;
+  --ink: #17212b;
+  --muted: #56646f;
+  --rule: #d9e1e5;
+  --accent: #0f7c86;
+  --display: "Manrope", "Segoe UI", system-ui, sans-serif;
+  --body: "Newsreader", Georgia, "Times New Roman", serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1418; --paper: #141c21; --ink: #e4ebee; --muted: #9aa9b2; --rule: #26333a; --accent: #4cc3cc; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e1418; --paper: #141c21; --ink: #e4ebee; --muted: #9aa9b2; --rule: #26333a; --accent: #4cc3cc; color-scheme: dark;
+}
+body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 18px; line-height: 1.65; }
+.wrap { max-width: 44rem; margin: 0 auto; padding-block: 3rem 4rem; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header { display: grid; gap: .5rem; padding-bottom: 1.75rem; border-bottom: 2px solid var(--accent); margin-bottom: 2rem; }
+.eyebrow { font-family: var(--display); font-weight: 700; font-size: .75rem; letter-spacing: .14em; text-transform: uppercase; color: var(--accent); margin: 0; }
+h1 { font-family: var(--display); font-weight: 800; font-size: clamp(2rem, 6vw, 2.75rem); line-height: 1.1; margin: 0; text-wrap: balance; }
+.dates { font-family: var(--display); font-size: .9rem; color: var(--muted); margin: 0; }
+.lead { font-size: 1.15rem; margin: 0 0 2rem; }
+ol.clauses { list-style: none; counter-reset: clause; padding: 0; margin: 0; display: grid; gap: 2rem; }
+ol.clauses > li { counter-increment: clause; display: grid; gap: .5rem; }
+h2 { font-family: var(--display); font-weight: 700; font-size: 1.15rem; margin: 0; display: flex; gap: .75rem; align-items: baseline; text-wrap: balance; }
+h2::before { content: counter(clause); font-variant-numeric: tabular-nums; color: var(--accent); min-width: 1.5rem; }
+li p, li ul { margin: 0; }
+li ul { padding-left: 1.25rem; display: grid; gap: .35rem; }
+.clause-body { display: grid; gap: .65rem; padding-left: 2.25rem; }
+strong { font-weight: 500; color: var(--ink); }
+footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); font-family: var(--display); font-size: .9rem; color: var(--muted); display: grid; gap: .4rem; }
+a { color: var(--accent); }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+@media (max-width: 480px) { .clause-body { padding-left: 0; } body { font-size: 17px; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <p class="eyebrow">Meridian</p>
+    <h1>Terms of Service</h1>
+    <p class="dates">Effective 28 October 2026 · Last updated 28 October 2026</p>
+  </header>
+
+  <p class="lead">Meridian is a personal tool that its owner runs on their own computer to make short clips and post them to their own social media accounts. These terms explain what Meridian does when you connect an account to it, and the rules for using it.</p>
+
+  <ol class="clauses">
+    <li>
+      <h2>Who can use Meridian</h2>
+      <div class="clause-body">
+        <p>Meridian is not a public service. It is used only by its owner, to manage the owner's own YouTube, TikTok and Instagram accounts. Nobody else can sign up for it or connect an account to it.</p>
+      </div>
+    </li>
+    <li>
+      <h2>What Meridian does</h2>
+      <div class="clause-body">
+        <p>When you connect an account, Meridian uses that platform's official sign-in and publishing tools (for TikTok, Login Kit and the Content Posting API) to:</p>
+        <ul>
+          <li>read basic profile information, such as your display name, so it can show which account is connected;</li>
+          <li>upload videos to that account, but only when you press a button to post a specific video.</li>
+        </ul>
+        <p>Meridian never posts anything on its own, never reads your messages, and never follows, likes or comments on your behalf.</p>
+      </div>
+    </li>
+    <li>
+      <h2>Your content and your responsibilities</h2>
+      <div class="clause-body">
+        <p>You choose every video that is posted, and you are responsible for it. By posting through Meridian you confirm that:</p>
+        <ul>
+          <li>you own the video or have permission from the people who own it to post it;</li>
+          <li>the video follows the rules of the platform you post it to, including TikTok's Terms of Service and Community Guidelines;</li>
+          <li>you won't use Meridian to post spam, misleading content, or anything illegal.</li>
+        </ul>
+        <p>Meridian does not claim any ownership of your videos.</p>
+      </div>
+    </li>
+    <li>
+      <h2>Your data</h2>
+      <div class="clause-body">
+        <p>The sign-in tokens a platform gives Meridian are stored only on the owner's computer, in Meridian's data folder. They are used only to talk to that platform, and are never sold, shared with anyone else, or used for advertising. The Meridian privacy policy explains this in more detail.</p>
+      </div>
+    </li>
+    <li>
+      <h2>Disconnecting</h2>
+      <div class="clause-body">
+        <p>You can disconnect an account at any time. Press Unlink in Meridian, which deletes its stored token, or remove Meridian's access in the platform's own settings. On TikTok, that's Settings and privacy, then Security, then Manage app permissions.</p>
+      </div>
+    </li>
+    <li>
+      <h2>Third-party platforms</h2>
+      <div class="clause-body">
+        <p>TikTok, Instagram and YouTube are run by other companies under their own terms. Meridian isn't affiliated with, endorsed by or sponsored by any of them. If a platform changes or limits its tools, some Meridian features may stop working.</p>
+      </div>
+    </li>
+    <li>
+      <h2>No warranty</h2>
+      <div class="clause-body">
+        <p>Meridian is provided as is. It may have bugs, uploads can fail, and features can change. Keep your own copies of anything important.</p>
+      </div>
+    </li>
+    <li>
+      <h2>Limitation of liability</h2>
+      <div class="clause-body">
+        <p>As far as the law allows, the owner of Meridian isn't liable for any loss that comes from using it, including failed or delayed posts, removed content, or action a platform takes against an account.</p>
+      </div>
+    </li>
+    <li>
+      <h2>Changes to these terms</h2>
+      <div class="clause-body">
+        <p>These terms may be updated if Meridian changes. The date at the top of this page shows when they last changed.</p>
+      </div>
+    </li>
+  </ol>
+
+  <footer>
+    <p>Questions about these terms: contact the owner of the Meridian clips channel through its YouTube or TikTok profile.</p>
+  </footer>
+</div>
+
+</body></html>
