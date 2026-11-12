@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Meridian sign-in</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 32rem; margin: 4rem auto; padding: 0 1rem; color: #222; background: #fff; }
+</style>
+</head>
+<body>
+<h1>Finishing Instagram sign-in&hellip;</h1>
+<p id="msg">Sending you back to Meridian on this computer.</p>
+<script>
+  // Meta returns sign-ins to this fixed https address, so the redirect URI in the Meta app never changes.
+  // This page hands the sign-in code straight to the Meridian helper running on the same computer.
+  // Nothing is stored or sent anywhere else.
+  var q = location.search;
+  if (q && /[?&]state=/.test(q)) {
+    location.replace('http://127.0.0.1:4777/oauth/instagram/callback' + q);
+  } else {
+    document.getElementById('msg').textContent = 'There is no sign-in to finish here. Start the Instagram sign-in from Meridian.';
+  }
+</script>
+<noscript><p>Turn on JavaScript to finish signing in.</p></noscript>
+</body>
+</html>
